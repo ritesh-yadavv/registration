@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body {
+    
+    background-color: rgb(147, 228, 228);
+    
+  }
+  h1{
+    text-align: center;
+    background-color: rgb(7,159,108);
+    color: white;
+    padding: .5rem 0;
+}
+  
+.main{
+  background-color: rgb(146, 245, 245);
+  display: flex;
+  
+  justify-content: space-around;
+  
+}
+
+  
+.enrollment {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    padding: 10px;
+ }
+  
+  .enrollment>input {
+    padding: 10px;
+    margin: 15px 10px;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  .name {
+    display: flex;
+  }
+  
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden; 
+  }
+  
+  .custom-file-input::before {
+    content: 'Choose File';
+    display: inline-block;
+    background: azure;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: bisque;
+    width: 35%;
+  }
+  
+  .gender, .skills {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+  
+  p {
+    margin-right: 10px;
+  }
+  
+  input[type=radio], input[ type=checkbox] {
+    transform: scale(1.3);
+    margin: 10px 10px;
+  }
+  
+  .skills>label, .gender>label {
+    padding: 0px 10px;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px 20px;
+    
+    text-align: center;
+    padding: .5rem 1rem;
+    color: white;
+    background: red;
+  }
+  #btn{
+    background: rgb(7,159,108);
+  }
+  .button:active {
+    transform: translateY(4px);
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .Vertical_line {
+    border-left: 4px solid rgb(7,159,108);
+  }
+  
+  .Enrolled {
+    margin-top: 2rem;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 5%;
+    border: 2px solid rgb(7,159,108);
+    padding: 20px 30px;
+    text-align: center;
+    background-color: rgb(7,159,108);
+  }
+  
+  .image>img {
+    width: 120px;
+    margin: 10px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin: 7px;
+  }
+  
+  .text {
+    margin: 10px;
+  }
